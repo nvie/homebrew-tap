@@ -1,8 +1,8 @@
 class GitToolbelt < Formula
   desc "Suite of useful Git commands"
   homepage "https://github.com/nvie/git-toolbelt#readme"
-  url "https://github.com/nvie/git-toolbelt/archive/v1.1.2.tar.gz"
-  sha256 "b2ce32634af37199b8204bda890aa0f4382bb6efd5979f39614da098fbfdc58f"
+  url "https://github.com/nvie/git-toolbelt/archive/v1.1.3.tar.gz"
+  sha256 "c63121d3bd1174b2275b92e28c47e1147c577701a4db1d32a597178915dae359"
 
   def install
     bin.install "git-active-branches"
