@@ -4,6 +4,9 @@ class GitToolbelt < Formula
   url "https://github.com/nvie/git-toolbelt/archive/v1.1.3.tar.gz"
   sha256 "c63121d3bd1174b2275b92e28c47e1147c577701a4db1d32a597178915dae359"
 
+  # For the "realpath" executable
+  depends_on "coreutils"
+
   def install
     bin.install "git-active-branches"
     bin.install "git-assume"
