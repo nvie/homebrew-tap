@@ -1,8 +1,8 @@
 class GitToolbelt < Formula
   desc "Suite of useful Git commands"
   homepage "https://github.com/nvie/git-toolbelt#readme"
-  url "https://github.com/nvie/git-toolbelt/archive/v1.1.3.tar.gz"
-  sha256 "c63121d3bd1174b2275b92e28c47e1147c577701a4db1d32a597178915dae359"
+  url "https://github.com/nvie/git-toolbelt/archive/v1.1.4.tar.gz"
+  sha256 "e49f2fe5c25f5217cac0a1471cb2fd2dd4d37cb16e44db88ee74c434d980cee9"
 
   # For the "realpath" executable
   depends_on "coreutils"
