@@ -1,8 +1,8 @@
 class GitToolbelt < Formula
   desc "Suite of useful Git commands"
   homepage "https://github.com/nvie/git-toolbelt#readme"
-  url "https://github.com/nvie/git-toolbelt/archive/v1.1.4.tar.gz"
-  sha256 "e49f2fe5c25f5217cac0a1471cb2fd2dd4d37cb16e44db88ee74c434d980cee9"
+  url "https://github.com/nvie/git-toolbelt/archive/v1.1.5.tar.gz"
+  sha256 "5dace589e8ca027b77fdb1bee94746b27d906fc2686f44bc1b239c0af18f7c11"
 
   # For the "realpath" executable
   depends_on "coreutils"
@@ -41,7 +41,9 @@ class GitToolbelt < Formula
     bin.install "git-remote-branches"
     bin.install "git-repo"
     bin.install "git-root"
+    bin.install "git-separator"
     bin.install "git-sha"
+    bin.install "git-shatter-by-file"
     bin.install "git-show-assumed"
     bin.install "git-stage-all"
     bin.install "git-stash-everything"
