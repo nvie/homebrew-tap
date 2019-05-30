@@ -1,8 +1,8 @@
 class GitToolbelt < Formula
   desc "Suite of useful Git commands"
   homepage "https://github.com/nvie/git-toolbelt#readme"
-  url "https://github.com/nvie/git-toolbelt/archive/v1.2.2.tar.gz"
-  sha256 "a498d8f0dc3b46e144900904db47393917e40ae363e7c6a1f9c27cf730245211"
+  url "https://github.com/nvie/git-toolbelt/archive/v1.2.3.tar.gz"
+  sha256 "598706619aad36d61ec34b641099ba268e9ee35a05867768c88c6c2e8738a296"
 
   # For the "realpath" executable
   depends_on "coreutils"
@@ -10,6 +10,7 @@ class GitToolbelt < Formula
   def install
     bin.install "git-active-branches"
     bin.install "git-assume"
+    bin.install "git-branches-containing"
     bin.install "git-cherry-pick-to"
     bin.install "git-cleanup"
     bin.install "git-commit-to"
