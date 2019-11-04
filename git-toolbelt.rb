@@ -1,8 +1,8 @@
 class GitToolbelt < Formula
   desc "Suite of useful Git commands"
   homepage "https://github.com/nvie/git-toolbelt#readme"
-  url "https://github.com/nvie/git-toolbelt/archive/v1.2.3.tar.gz"
-  sha256 "598706619aad36d61ec34b641099ba268e9ee35a05867768c88c6c2e8738a296"
+  url "https://github.com/nvie/git-toolbelt/archive/v1.2.4.tar.gz"
+  sha256 "1733cecea3b7fb912ab90247a8ea86055770ed0dba838304a9820db6120f1aec"
 
   # For the "realpath" executable
   depends_on "coreutils"
@@ -13,6 +13,7 @@ class GitToolbelt < Formula
     bin.install "git-branches-containing"
     bin.install "git-cherry-pick-to"
     bin.install "git-cleanup"
+    bin.install "git-cleanup-squashed"
     bin.install "git-commit-to"
     bin.install "git-committer-info"
     bin.install "git-conflicts"
