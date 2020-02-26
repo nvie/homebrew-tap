@@ -1,19 +1,26 @@
 class GitToolbelt < Formula
   desc "Suite of useful Git commands"
   homepage "https://github.com/nvie/git-toolbelt#readme"
-  url "https://github.com/nvie/git-toolbelt/archive/v1.3.0.tar.gz"
-  sha256 "ed369d58476e10a0a0c025c889dcf7a15e3abe7eb60db2e716d9a4b25db0e892"
+  url "https://github.com/nvie/git-toolbelt/archive/v1.4.0.tar.gz"
+  sha256 "3c9f69cfee1ca8057069a93be4f6e10f8ce90c1f1989d969aebf6cc97e24b965"
 
   # For the "realpath" executable
   depends_on "coreutils"
 
   def install
-    bin.install "git-active-branches"
+    # -------------------------------------------
+    # NOTE: These have become DEPRECATED and will
+    # be removed in the next release
     bin.install "git-assume"
+    bin.install "git-unassume"
+    bin.install "git-show-assumed"
+    bin.install "git-cleanup-squashed"
+    # -------------------------------------------
+
+    bin.install "git-active-branches"
     bin.install "git-branches-containing"
     bin.install "git-cherry-pick-to"
     bin.install "git-cleanup"
-    bin.install "git-cleanup-squashed"
     bin.install "git-commit-to"
     bin.install "git-committer-info"
     bin.install "git-conflicts"
@@ -48,16 +55,17 @@ class GitToolbelt < Formula
     bin.install "git-separator"
     bin.install "git-sha"
     bin.install "git-shatter-by-file"
-    bin.install "git-show-assumed"
+    bin.install "git-show-skipped"
+    bin.install "git-skip"
     bin.install "git-spinoff"
     bin.install "git-stage-all"
     bin.install "git-stash-everything"
     bin.install "git-tag-exists"
     bin.install "git-trash"
-    bin.install "git-unassume"
     bin.install "git-undo-commit"
     bin.install "git-undo-merge"
     bin.install "git-unmerged"
+    bin.install "git-unskip"
     bin.install "git-unstage-all"
     bin.install "git-update-all"
     bin.install "git-workon"
