@@ -1,22 +1,13 @@
 class GitToolbelt < Formula
   desc "Suite of useful Git commands"
   homepage "https://github.com/nvie/git-toolbelt#readme"
-  url "https://github.com/nvie/git-toolbelt/archive/v1.4.2.tar.gz"
-  sha256 "0a4eb4f4106c5a43de5bd0b3f640e817e0fc001def08586b5929248c80d9bde2"
+  url "https://github.com/nvie/git-toolbelt/archive/v1.5.0.tar.gz"
+  sha256 "8f9218c3f182462085292a4947253da5459617a0d8cf36f9038905d341e722a2"
 
   # For the "realpath" executable
   depends_on "coreutils"
 
   def install
-    # -------------------------------------------
-    # NOTE: These have become DEPRECATED and will
-    # be removed in the next release
-    bin.install "git-assume"
-    bin.install "git-unassume"
-    bin.install "git-show-assumed"
-    bin.install "git-cleanup-squashed"
-    # -------------------------------------------
-
     bin.install "git-active-branches"
     bin.install "git-branches-containing"
     bin.install "git-cherry-pick-to"
@@ -41,6 +32,7 @@ class GitToolbelt < Formula
     bin.install "git-local-branch-exists"
     bin.install "git-local-branches"
     bin.install "git-local-commits"
+    bin.install "git-main-branch"
     bin.install "git-merge-status"
     bin.install "git-merged"
     bin.install "git-merges-cleanly"
