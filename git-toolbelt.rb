@@ -1,8 +1,8 @@
 class GitToolbelt < Formula
   desc "Suite of useful Git commands"
   homepage "https://github.com/nvie/git-toolbelt#readme"
-  url "https://github.com/nvie/git-toolbelt/archive/v1.5.1.tar.gz"
-  sha256 "0fe8551fe5f9c05aaa566aba6f94667240cb0f6221a3c8d0d8cccff31244b1a8"
+  url "https://github.com/nvie/git-toolbelt/archive/v1.6.0.tar.gz"
+  sha256 "73f9eb768b816b5faf87eb8ec6a465595ee39e5d1344757dd20f7d73be466713"
 
   # For the "realpath" executable
   depends_on "coreutils"
@@ -60,6 +60,7 @@ class GitToolbelt < Formula
     bin.install "git-unskip"
     bin.install "git-unstage-all"
     bin.install "git-update-all"
+    bin.install "git-wip"
     bin.install "git-workon"
   end
 
