@@ -1,8 +1,8 @@
 class GitToolbelt < Formula
   desc "Suite of useful Git commands"
   homepage "https://github.com/nvie/git-toolbelt#readme"
-  url "https://github.com/nvie/git-toolbelt/archive/v1.7.1.tar.gz"
-  sha256 "388dc5f4536cff9412c8baa8f7e89254add421a039992aed50f09f568b2daf57"
+  url "https://github.com/nvie/git-toolbelt/archive/v1.8.0.tar.gz"
+  sha256 "8c504a66715efe2fa544b54b464881b5575201d94a3ff31c21934b23c16bda31"
 
   # For the "realpath" executable
   depends_on "coreutils"
@@ -19,6 +19,7 @@ class GitToolbelt < Formula
     bin.install "git-contains"
     bin.install "git-current-branch"
     bin.install "git-delouse"
+    bin.install "git-diff-since"
     bin.install "git-drop-local-changes"
     bin.install "git-fixup"
     bin.install "git-fixup-with"
@@ -53,6 +54,7 @@ class GitToolbelt < Formula
     bin.install "git-spinoff"
     bin.install "git-stage-all"
     bin.install "git-stash-everything"
+    bin.install "git-sync-commit-date"
     bin.install "git-tag-exists"
     bin.install "git-trash"
     bin.install "git-undo-commit"
