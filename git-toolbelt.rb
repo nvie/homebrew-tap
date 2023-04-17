@@ -1,8 +1,8 @@
 class GitToolbelt < Formula
   desc "Suite of useful Git commands"
   homepage "https://github.com/nvie/git-toolbelt#readme"
-  url "https://github.com/nvie/git-toolbelt/archive/v1.8.1.tar.gz"
-  sha256 "c2d94e4b2a595e2e048121b89d4daa71240119b0f8b9ae981e60a89a8f659241"
+  url "https://github.com/nvie/git-toolbelt/archive/v1.8.2.tar.gz"
+  sha256 "cc6a91af3224b476a76d62be7cfee9f0efe1c5b8d74c62a7b56d2e040d1bf7ed"
 
   # For the "realpath" executable
   depends_on "coreutils"
@@ -41,6 +41,7 @@ class GitToolbelt < Formula
     bin.install "git-modified"
     bin.install "git-push-current"
     bin.install "git-recent-branches"
+    bin.install "git-relative-path"
     bin.install "git-remote-branch-exists"
     bin.install "git-remote-branches"
     bin.install "git-remote-tracking-branch"
