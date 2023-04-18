@@ -4,8 +4,8 @@ class GitToolbelt < Formula
   url "https://github.com/nvie/git-toolbelt/archive/v1.8.4.tar.gz"
   sha256 "a703d964775b978564735471c6d004611915c5cf5bdbd4f49e546aff7fb0c418"
 
-  # For the "grealpath" executable
-  depends_on "coreutils"
+  depends_on "coreutils"  # For the "grealpath" executable
+  depends_on "fzf"        # Needed for "git-fixup-with" only
 
   def install
     bin.install "git-active-branches"
