@@ -1,8 +1,8 @@
 class GitToolbelt < Formula
   desc "Suite of useful Git commands"
   homepage "https://github.com/nvie/git-toolbelt#readme"
-  url "https://github.com/nvie/git-toolbelt/archive/v1.9.0.tar.gz"
-  sha256 "50f743ddefbc8d015880d6476e00f7fc319a909ff4beb69dd8d777fc8277e085"
+  url "https://github.com/nvie/git-toolbelt/archive/v1.9.1.tar.gz"
+  sha256 "a498d8f0dc3b46e144900904db47393917e40ae363e7c6a1f9c27cf730245211"
 
   depends_on "coreutils"  # For the "grealpath" executable
   depends_on "fzf"        # Needed for "git-fixup-with" only
