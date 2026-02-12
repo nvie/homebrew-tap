@@ -1,8 +1,8 @@
 class GitToolbelt < Formula
   desc "Suite of useful Git commands"
   homepage "https://github.com/nvie/git-toolbelt#readme"
-  url "https://github.com/nvie/git-toolbelt/archive/v1.9.4.tar.gz"
-  sha256 "621c477dab0b35c25dc975d36db56a89a5f7e4edadc007b23fee61fb2071e79e"
+  url "https://github.com/nvie/git-toolbelt/archive/v1.10.0.tar.gz"
+  sha256 "b6b23f61604b7a89a0bf7486ef9c32a34c95cf6b57c27376ff69d70c12fbf7c1"
 
   depends_on "coreutils"  # For the "grealpath" executable
   depends_on "fzf"        # Needed for "git-fixup-with" only
@@ -45,7 +45,6 @@ class GitToolbelt < Formula
     bin.install "git-remote-branch-exists"
     bin.install "git-remote-branches"
     bin.install "git-remote-tracking-branch"
-    bin.install "git-repo"
     bin.install "git-root"
     bin.install "git-separator"
     bin.install "git-sha"
