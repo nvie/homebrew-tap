@@ -1,8 +1,8 @@
 class GitToolbelt < Formula
   desc "Suite of useful Git commands"
   homepage "https://github.com/nvie/git-toolbelt#readme"
-  url "https://github.com/nvie/git-toolbelt/archive/v1.10.0.tar.gz"
-  sha256 "b6b23f61604b7a89a0bf7486ef9c32a34c95cf6b57c27376ff69d70c12fbf7c1"
+  url "https://github.com/nvie/git-toolbelt/archive/v1.11.0.tar.gz"
+  sha256 "3828f96ff8ea14789a63fd914a5bf99ba4dad52e4066863b8fab0ea4310d9ac7"
 
   depends_on "coreutils"  # For the "grealpath" executable
   depends_on "fzf"        # Needed for "git-fixup-with" only
@@ -21,6 +21,7 @@ class GitToolbelt < Formula
     bin.install "git-delouse"
     bin.install "git-diff-since"
     bin.install "git-drop-local-changes"
+    bin.install "git-edit-author-dates"
     bin.install "git-fixup"
     bin.install "git-fixup-with"
     bin.install "git-has-local-changes"
