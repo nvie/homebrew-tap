@@ -9,6 +9,7 @@ class GitToolbelt < Formula
 
   def install
     bin.install "git-active-branches"
+    bin.install "git-amend-date"
     bin.install "git-branches-containing"
     bin.install "git-cherry-pick-to"
     bin.install "git-cleanup"
@@ -40,6 +41,7 @@ class GitToolbelt < Formula
     bin.install "git-merged"
     bin.install "git-merges-cleanly"
     bin.install "git-modified"
+    bin.install "git-modified-since"
     bin.install "git-push-current"
     bin.install "git-recent-branches"
     bin.install "git-relative-path"
