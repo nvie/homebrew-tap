@@ -1,9 +1,9 @@
 class IncrediDiff < Formula
   desc "Incremental code review in your terminal"
   homepage "https://github.com/nvie/homebrew-tap#readme"
-  url "https://github.com/nvie/homebrew-tap/releases/download/incredi-diff-v0.2.0/incredi-diff-0.2.0-arm64-macos.tar.gz"
-  version "0.2.0"
-  sha256 "66372c783b1735f09c996b00e22c954d12faceacd6e82379a37cf0a6b321e9fc"
+  url "https://github.com/nvie/homebrew-tap/releases/download/incredi-diff-v0.3.0/incredi-diff-0.3.0-arm64-macos.tar.gz"
+  version "0.3.0"
+  sha256 "bfc93b5230582f70267a897c073e23da3700c43cbb8afdf649f54779a82d8d45"
   license "MIT"
 
   # Only an arm64 build is published, so say so rather than installing
