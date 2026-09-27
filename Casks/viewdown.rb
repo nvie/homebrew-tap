@@ -11,8 +11,7 @@ cask "viewdown" do
   # point: the digest is what proves brew got the bytes that were built.
   sha256 "2d8219fb93943cbf7d2d9b5e0d7f1648bcae3b682e743854e0f96695cf6b2bab"
 
-  url "https://dl.viewdown.app/bin/Viewdown_#{version}_universal.dmg",
-      verified: "dl.viewdown.app/"
+  url "https://dl.viewdown.app/bin/Viewdown_#{version}_universal.dmg"
   name "Viewdown"
   desc "Live-reloading Markdown viewer"
   homepage "https://viewdown.app/"
