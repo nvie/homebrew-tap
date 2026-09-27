@@ -13,3 +13,9 @@ brew tap nvie/tap
 - `sr` — simple mass search & replace tool
 
 Install any of them with `brew install nvie/tap/<formula>`.
+
+## Casks
+
+- `viewdown` — beautiful Markdown viewer (macOS)
+
+Install with `brew install --cask nvie/tap/viewdown`.
