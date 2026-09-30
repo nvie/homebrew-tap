@@ -6,10 +6,10 @@
 # exists once `make release` in the viewdown repo has built the bytes. They are
 # edited as one change, after the build.
 cask "viewdown" do
-  version "0.3.1"
+  version "0.4.0"
   # From the SHA256SUMS line `make release` prints. `:no_check` would defeat the
   # point: the digest is what proves brew got the bytes that were built.
-  sha256 "3780e970c4b47f75f5f0f649898706be1a0f4665832da676feba9f21a3f119d7"
+  sha256 "456c68657d83d4c1de4a032c0113244f69e8368ed17778a7be96916ee56e7360"
 
   url "https://dl.viewdown.app/bin/Viewdown_#{version}_universal.dmg"
   name "Viewdown"
